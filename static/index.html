@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#344b3e">
+  <title>知人 · 人力资源管理</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <div id="app"><div class="initial-loading"><span class="spinner"></span><p>正在打开工作台…</p></div></div>
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <dialog id="record-dialog" class="modal"><div id="dialog-content"></div></dialog>
+  <dialog id="confirm-dialog" class="modal confirm-modal"><form method="dialog"><div class="modal-heading"><div class="confirm-icon" id="confirm-icon"></div><h2 id="confirm-title">确认操作</h2></div><p id="confirm-description"></p><div class="modal-footer"><button class="button secondary" value="cancel">取消</button><button id="confirm-accept" class="button primary" value="confirm">确认</button></div></form></dialog>
+  <noscript><p class="no-script">请在浏览器中启用 JavaScript 后使用人力资源管理系统。</p></noscript>
+</body>
+</html>
